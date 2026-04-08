@@ -1,7 +1,7 @@
-const TOKEN_KEY = "gistBackupToken";
-const GIST_ID_KEY = "gistBackupId";
+const TOKEN_KEY = "jat_token";
+const GIST_ID_KEY = "jat_gistId";
 const BACKUP_INTERVAL_MS = 5 * 60 * 1000;
-const STORAGE_KEY = "jobApplications";
+const STORAGE_KEY = "jat_applications";
 
 let lastBackupData = "";
 let backupTimer: number | null = null;

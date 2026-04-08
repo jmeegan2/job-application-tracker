@@ -1,6 +1,6 @@
 import { JobApplication } from "../types";
 
-const STORAGE_KEY = "jobApplications";
+const STORAGE_KEY = "jat_applications";
 
 export function loadApplications(): JobApplication[] {
   const raw = localStorage.getItem(STORAGE_KEY);
