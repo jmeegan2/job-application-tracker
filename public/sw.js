@@ -3,7 +3,7 @@ const CACHE_NAME = "job-tracker-v1";
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) =>
-      cache.addAll(["/", "/index.html"])
+      cache.addAll(["./", "./index.html"])
     )
   );
   self.skipWaiting();
