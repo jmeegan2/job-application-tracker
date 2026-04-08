@@ -1,5 +1,7 @@
 # Job Application Tracker
 
+live site: https://jmeegan2.github.io/job-application-tracker/
+
 A React app for tracking job applications through the hiring pipeline, with automatic GitHub Gist backup.
 
 ## Features
